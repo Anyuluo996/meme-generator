@@ -24,12 +24,23 @@ _✨ 表情包生成器，用于制作各种沙雕表情包 ✨_
 > 
 > 拥有更小的内存占用和更快的运行速度，欢迎使用！
 
+## 介绍
+本项目是基于[MemeCrafters/meme-generator](https://github.com/MemeCrafters/meme-generator)整合了[MemeCrafters/meme-generator-contrib](https://github.com/MemeCrafters/meme-generator-contrib),[anyliew/meme_emoji](https://github.com/anyliew/meme_emoji)和[jinjiao007/meme-generator-jj](https://github.com/jinjiao007/meme-generator-jj)表情的表情生成器。
+
 ## 表情列表
 
 表情详细信息、表情预览等可以在 [--> 表情列表 <--](https://github.com/MemeCrafters/meme-generator/wiki/%E8%A1%A8%E6%83%85%E5%88%97%E8%A1%A8) 查看
 
 ## 安装、使用、配置
-
+```bash
+git clone https://github.com/Anyuluo996/meme-generator.git
+cd meme-generator
+# 安装依赖
+poetry sync
+poetry build
+# 启动
+poetry run meme run
+```
 详见 Wiki：[--> Wiki <--](https://github.com/MemeCrafters/meme-generator/wiki)
 
 ## 其他表情
@@ -39,7 +50,7 @@ _✨ 表情包生成器，用于制作各种沙雕表情包 ✨_
 其他表情仓库：
 - [MemeCrafters/meme-generator-contrib](https://github.com/MemeCrafters/meme-generator-contrib) meme-generator 额外表情仓库
 - [anyliew/meme_emoji](https://github.com/anyliew/meme_emoji) 更多热门表情包模板
-
+- [jinjiao007/meme-generator-jj](https://github.com/jinjiao007/meme-generator-jj) 更多扩展表情包模板
 ## 声明
 
 本仓库的表情素材等均来自网络，如有侵权请联系作者删除
