@@ -32,15 +32,23 @@ _✨ 表情包生成器，用于制作各种沙雕表情包 ✨_
 表情详细信息、表情预览等可以在 [--> 表情列表 <--](https://github.com/MemeCrafters/meme-generator/wiki/%E8%A1%A8%E6%83%85%E5%88%97%E8%A1%A8) 查看
 
 ## 安装、使用、配置
+
 ```bash
 git clone https://github.com/Anyuluo996/meme-generator.git
 cd meme-generator
+```
+
 # 安装依赖
+```bash
 poetry sync
 poetry build
+```
+
 # 启动
+```bash
 poetry run meme run
 ```
+
 详见 Wiki：[--> Wiki <--](https://github.com/MemeCrafters/meme-generator/wiki)
 
 ## 其他表情
