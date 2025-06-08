@@ -38,13 +38,13 @@ git clone https://github.com/Anyuluo996/meme-generator.git
 cd meme-generator
 ```
 
-# 安装依赖
+### 安装依赖
 ```bash
 poetry sync
 poetry build
 ```
 
-# 启动
+### 启动
 ```bash
 poetry run meme run
 ```
