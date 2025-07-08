@@ -59,8 +59,7 @@ def kurogames_phoebe_score_sheet(images: list[BuildImage], texts: list[str], arg
     return make_jpg_or_gif(images, make)
 
 
-add_meme(
-    "kurogames_phoebe_score_sheet",
+add_meme("kurogames_phoebe_score_sheet",
     kurogames_phoebe_score_sheet,
     min_images=1,
     max_images=1,

@@ -16,7 +16,7 @@ def mihoyo_senior_phone (images: list[BuildImage], texts: list[str], args: MemeA
 
     def make(imgs: list[BuildImage]) -> BuildImage:
         #头像尺寸
-        img = imgs[0].convert("RGBA").circle().resize((140, 210))
+        img = imgs[0].convert("RGBA").resize((140, 210))
         #头像坐标
         return frame.copy().paste(img, (533, 495), alpha=True,below=True)
 

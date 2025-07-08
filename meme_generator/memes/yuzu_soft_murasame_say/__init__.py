@@ -22,7 +22,7 @@ def yuzu_soft_murasame_say(images, texts: list[str], args):
             allow_wrap=True,
             max_fontsize=150,
             min_fontsize=20,
-            lines_align="right",
+            lines_align="left",
             font_families=["FZKaTong-M19S"],
         )
     except ValueError:
@@ -37,7 +37,7 @@ add_meme(
     max_texts=1,
     default_texts=["非酋，不要再涩涩了"],
     keywords=["丛雨说"],
+    tags=MemeTags.yuzu_soft,
     date_created=datetime(2024, 12, 21),
-    #By Anyliew 2024年12月21日 22:10:12
     date_modified=datetime(2024, 12, 21),
 )
